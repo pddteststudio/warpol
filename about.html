@@ -1,0 +1,160 @@
+
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0d11">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <meta name="description" content="Информация о Военно‑Политическом Minecraft-сервере и интерактивная карта мира.">
+  <title>О сервере — Мир Держав</title>
+</head>
+<body data-page="about" id="top">
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Главная">
+      <img src="assets/svg/logo-mark.svg" alt="" width="34" height="34">
+      <span><b>МИР ДЕРЖАВ</b><small>MILITARY–POLITICAL SERVER</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Главная навигация"><a href="index.html" class=""><span class="lang-ru">Главная</span><span class="lang-en">Home</span></a>
+<a href="about.html" class="is-active"><span class="lang-ru">О сервере</span><span class="lang-en">Server</span></a>
+<a href="news.html" class=""><span class="lang-ru">Новости</span><span class="lang-en">News</span></a>
+<a href="mods.html" class=""><span class="lang-ru">Моды</span><span class="lang-en">Mods</span></a></nav>
+    <div class="header-side">
+      <button class="lang-toggle" type="button" aria-label="Сменить язык"><span>RU</span><i>/</i><span>EN</span></button>
+      <a class="header-discord" href="https://discord.gg/Y9SCaHXGq5" target="_blank" rel="noopener">Discord</a>
+      <button class="menu-toggle" type="button" aria-label="Открыть меню"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="page-intro page-shell">
+    <div class="intro-mark"><img src="assets/svg/compass.svg" alt=""></div>
+    <p class="eyebrow">SERVER / WORLD / POLITICS</p>
+    <h1><span class="lang-ru">Сервер, где государства создают игроки.</span><span class="lang-en">A server where players create states.</span></h1>
+    <p class="page-lead"><span class="lang-ru">Мир строится вокруг политики, экономики, промышленности и взаимодействия между странами. Minecraft здесь — основа для полноценной геополитической песочницы.</span><span class="lang-en">The world is built around politics, economy, industry and interaction between countries. Minecraft is the foundation for a complete geopolitical sandbox.</span></p>
+  </section>
+
+  <section class="interactive-map-section" id="world-map">
+    <div class="page-shell map-section-head">
+      <div>
+        <p class="section-label">01 / <span class="lang-ru">ИНТЕРАКТИВНАЯ КАРТА</span><span class="lang-en">INTERACTIVE MAP</span></p>
+        <h2><span class="lang-ru">Мировая обстановка.</span><span class="lang-en">World situation.</span></h2>
+      </div>
+      <div class="map-state"><span></span><span class="lang-ru">Демонстрационный слой</span><span class="lang-en">Demonstration layer</span></div>
+    </div>
+    <div class="map-stage" data-map>
+      <div class="map-toolbar">
+        <button type="button" data-map-zoom="in" aria-label="Приблизить">+</button>
+        <button type="button" data-map-zoom="out" aria-label="Отдалить">−</button>
+        <button type="button" data-map-reset aria-label="Сбросить">↺</button>
+      </div>
+      <div class="map-viewport">
+        <div class="map-canvas">
+          <img src="assets/svg/world-outline.svg" alt="Схематичная карта мира">
+          <button class="map-point point-a" data-city="Северная Федерация" data-city-en="Northern Federation" data-type="Столица" data-type-en="Capital"><i></i><span>A-01</span></button>
+          <button class="map-point point-b" data-city="Западный Союз" data-city-en="Western Union" data-type="Промышленный центр" data-type-en="Industrial center"><i></i><span>B-04</span></button>
+          <button class="map-point point-c" data-city="Республика Востока" data-city-en="Eastern Republic" data-type="Торговый узел" data-type-en="Trade hub"><i></i><span>C-12</span></button>
+          <button class="map-point point-d" data-city="Южная Коалиция" data-city-en="Southern Coalition" data-type="Военная база" data-type-en="Military base"><i></i><span>D-07</span></button>
+        </div>
+      </div>
+      <aside class="map-info">
+        <small>MAP NODE</small>
+        <strong data-map-title><span class="lang-ru">Выберите точку на карте</span><span class="lang-en">Select a point on the map</span></strong>
+        <p data-map-text><span class="lang-ru">После подключения к серверу здесь появятся реальные государства, города, границы и онлайн-игроки.</span><span class="lang-en">After connection, real states, cities, borders and online players will appear here.</span></p>
+      </aside>
+    </div>
+    <div class="page-shell map-note">
+      <p><span class="lang-ru">Сейчас карта работает как визуальная демонстрация интерфейса. Структура страницы готова к подключению BlueMap, Dynmap или собственного API сервера.</span><span class="lang-en">The map currently works as a visual interface demo. The page is ready to connect BlueMap, Dynmap or a custom server API.</span></p>
+    </div>
+  </section>
+
+  <section class="server-pillars page-shell">
+    <article class="pillar reveal">
+      <span>01</span>
+      <div>
+        <h2><span class="lang-ru">Государства и политика</span><span class="lang-en">States and politics</span></h2>
+        <p><span class="lang-ru">Игроки основывают страны, определяют форму правления, принимают законы, формируют внешнюю политику и создают союзы. Границы и влияние существуют только пока государство способно их поддерживать.</span><span class="lang-en">Players found countries, define governments, pass laws, shape foreign policy and form alliances. Borders and influence exist only while a state can maintain them.</span></p>
+      </div>
+      <img src="assets/svg/network.svg" alt="">
+    </article>
+
+    <article class="pillar reveal">
+      <span>02</span>
+      <div>
+        <h2><span class="lang-ru">Экономика</span><span class="lang-en">Economy</span></h2>
+        <p><span class="lang-ru">Discord-бот ведёт личные балансы, бюджеты стран, переводы между игроками и государствами, а также рейтинг экономик. Финансы становятся частью дипломатии и внутренней политики.</span><span class="lang-en">A Discord bot manages personal balances, national budgets, transfers between players and states, and economic rankings. Finance becomes part of diplomacy and domestic policy.</span></p>
+      </div>
+      <div class="text-metric"><b>ONLINE</b><small>DISCORD ECONOMY</small></div>
+    </article>
+
+    <article class="pillar reveal">
+      <span>03</span>
+      <div>
+        <h2><span class="lang-ru">Промышленность и война</span><span class="lang-en">Industry and warfare</span></h2>
+        <p><span class="lang-ru">Техника, энергетика, производство и артиллерия создаются через систему Create и связанные моды. Военная сила зависит от инфраструктуры, ресурсов и инженерии.</span><span class="lang-en">Vehicles, energy, production and artillery are built through Create and related mods. Military power depends on infrastructure, resources and engineering.</span></p>
+      </div>
+      <img src="assets/svg/cannon.svg" alt="">
+    </article>
+
+    <article class="pillar reveal">
+      <span>04</span>
+      <div>
+        <h2><span class="lang-ru">Защита мира</span><span class="lang-en">World protection</span></h2>
+        <p><span class="lang-ru">Белые списки, приваты RegionGuard и история действий CoreProtectNeo защищают мир от случайного разрушения и позволяют разбирать спорные ситуации.</span><span class="lang-en">Whitelists, RegionGuard claims and CoreProtectNeo action history protect the world from random destruction and help resolve disputes.</span></p>
+      </div>
+      <div class="text-metric"><b>24 / 48</b><small>CPU CORES / GB RAM</small></div>
+    </article>
+  </section>
+
+  <section class="world-gallery">
+    <div class="page-shell section-head">
+      <div>
+        <p class="section-label">02 / <span class="lang-ru">МИР</span><span class="lang-en">WORLD</span></p>
+        <h2><span class="lang-ru">Города, транспорт и естественные рубежи.</span><span class="lang-en">Cities, transport and natural borders.</span></h2>
+      </div>
+    </div>
+    <div class="gallery-grid">
+      <figure><img src="assets/images/news-military.png" alt="Милитаризация"><figcaption>POLYGON / MILITARY</figcaption></figure>
+      <figure><img src="assets/images/news-development.webp" alt="Железная дорога"><figcaption>LOGISTICS / RAIL</figcaption></figure>
+      <figure><img src="assets/images/news-revival.webp" alt="Ландшафт мира"><figcaption>TERRAIN / WORLD</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="infra-section page-shell">
+    <div class="infra-art reveal"><img src="assets/svg/server.svg" alt=""></div>
+    <div class="infra-copy reveal">
+      <p class="section-label">03 / INFRASTRUCTURE</p>
+      <h2><span class="lang-ru">Производительная основа.</span><span class="lang-en">A high-performance foundation.</span></h2>
+      <p><span class="lang-ru">Проект работает на NeoForge 1.21.1. Для сервера арендовано оборудование с 24 ядрами CPU, 48 GB RAM и 100 GB SSD. Сборка, безопасность и серверные моды проходят финальную подготовку к открытому тесту.</span><span class="lang-en">The project runs on NeoForge 1.21.1. The server uses hardware with 24 CPU cores, 48 GB RAM and a 100 GB SSD. The build, security systems and server-side mods are in final preparation for public testing.</span></p>
+      <a class="arrow-link" href="news.html#preparation"><span class="lang-ru">Ход разработки</span><span class="lang-en">Development progress</span><img src="assets/svg/arrow.svg" alt=""></a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <div>
+      <strong>МИР ДЕРЖАВ</strong>
+      <p><span class="lang-ru">Военно‑Политический Minecraft-сервер · NeoForge 1.21.1</span><span class="lang-en">Military-Political Minecraft server · NeoForge 1.21.1</span></p>
+    </div>
+    <div class="footer-links">
+      <a href="https://discord.gg/Y9SCaHXGq5" target="_blank" rel="noopener">Discord</a>
+      <a href="https://liftlink.link" target="_blank" rel="noopener">LiftLink</a>
+      <a href="https://catr.me" target="_blank" rel="noopener">Catr</a>
+      <a href="https://melobank.com" target="_blank" rel="noopener">MeloBank</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> Warpol server</span>
+    <a href="#top"><span class="lang-ru">Наверх</span><span class="lang-en">Back to top</span></a>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

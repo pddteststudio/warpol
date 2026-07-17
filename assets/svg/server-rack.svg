@@ -1,0 +1,15 @@
+<svg width="560" height="680" viewBox="0 0 560 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="83" y="44" width="394" height="592" rx="8" stroke="#7FC4FF" stroke-opacity=".35" stroke-width="2"/>
+  <g stroke="#7FC4FF" stroke-opacity=".42">
+    <rect x="112" y="89" width="336" height="92" rx="4"/><rect x="112" y="204" width="336" height="92" rx="4"/><rect x="112" y="319" width="336" height="92" rx="4"/><rect x="112" y="434" width="336" height="92" rx="4"/>
+  </g>
+  <g fill="#7FC4FF">
+    <circle cx="142" cy="118" r="4"/><circle cx="142" cy="233" r="4"/><circle cx="142" cy="348" r="4"/><circle cx="142" cy="463" r="4"/>
+  </g>
+  <g stroke="#7FC4FF" stroke-opacity=".22">
+    <path d="M172 119H405M172 234H405M172 349H405M172 464H405"/><path d="M172 143H360M172 258H360M172 373H360M172 488H360"/>
+  </g>
+  <g font-family="monospace" font-size="13" fill="#7FC4FF" fill-opacity=".5">
+    <text x="112" y="573">24 CPU CORES</text><text x="112" y="596">48 GB MEMORY</text><text x="306" y="573">100 GB SSD</text><text x="306" y="596">NEOFORGE 1.21.1</text>
+  </g>
+</svg>

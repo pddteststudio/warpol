@@ -1,0 +1,14 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="#7FC4FF" stroke-opacity=".18">
+    <path d="M175 245L355 155L505 258L707 135"/><path d="M175 245L344 387L505 258L693 395"/><path d="M355 155L344 387M707 135L693 395"/><path d="M355 155L707 135M344 387L693 395"/>
+  </g>
+  <g fill="#071019" stroke="#7FC4FF" stroke-width="2">
+    <circle cx="175" cy="245" r="36"/><circle cx="355" cy="155" r="36"/><circle cx="505" cy="258" r="50"/><circle cx="707" cy="135" r="36"/><circle cx="344" cy="387" r="36"/><circle cx="693" cy="395" r="36"/>
+  </g>
+  <g stroke="#7FC4FF" stroke-linecap="round">
+    <path d="M160 245H190M175 230V260"/><path d="M340 155H370M355 140V170"/><path d="M486 258H524M505 239V277" stroke-width="2"/><path d="M692 135H722M707 120V150"/><path d="M329 387H359M344 372V402"/><path d="M678 395H708M693 380V410"/>
+  </g>
+  <g font-family="monospace" font-size="11" fill="#7FC4FF" fill-opacity=".55">
+    <text x="145" y="300">STATE 01</text><text x="325" y="210">STATE 02</text><text x="466" y="330">WORLD HUB</text><text x="677" y="190">STATE 03</text><text x="314" y="442">STATE 04</text><text x="663" y="450">STATE 05</text>
+  </g>
+</svg>

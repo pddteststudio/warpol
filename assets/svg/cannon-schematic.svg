@@ -1,0 +1,19 @@
+<svg width="1000" height="420" viewBox="0 0 1000 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="#7FC4FF" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M88 290H879" stroke-opacity=".12"/>
+    <path d="M219 261L703 174L716 214L235 304L219 261Z" stroke-width="2.4"/>
+    <path d="M702 174L880 118L892 153L716 214" stroke-width="2.4"/>
+    <path d="M345 280L392 328H648L706 222" stroke-width="2.4"/>
+    <path d="M385 326L360 373M634 326L664 373" stroke-width="2.4"/>
+    <circle cx="356" cy="377" r="34" stroke-width="2.4"/><circle cx="670" cy="377" r="34" stroke-width="2.4"/>
+    <path d="M276 272L290 325H366M748 197L771 244L709 257" stroke-opacity=".45"/>
+    <path d="M181 244L219 261M192 307L235 304" stroke-opacity=".45"/>
+    <path d="M483 241L490 281M523 234L532 274" stroke-opacity=".45"/>
+  </g>
+  <g fill="#7FC4FF">
+    <circle cx="219" cy="261" r="3"/><circle cx="716" cy="214" r="3"/><circle cx="706" cy="222" r="3"/><circle cx="392" cy="328" r="3"/><circle cx="648" cy="328" r="3"/>
+  </g>
+  <g font-family="monospace" font-size="12" fill="#7FC4FF" fill-opacity=".5">
+    <text x="735" y="186">CBC / ARTILLERY SYSTEM</text><text x="93" y="310">01 — INDUSTRIAL ARMAMENT</text><text x="443" y="356">MODULAR CHASSIS</text>
+  </g>
+</svg>

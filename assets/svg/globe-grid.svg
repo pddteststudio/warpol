@@ -1,0 +1,32 @@
+<svg width="1200" height="780" viewBox="0 0 1200 780" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="g" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(642 405) rotate(90) scale(354 492)">
+      <stop stop-color="#56A8FF" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#56A8FF" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip"><circle cx="650" cy="390" r="320"/></clipPath>
+  </defs>
+  <circle cx="650" cy="390" r="320" fill="url(#g)" stroke="#8BC6FF" stroke-opacity=".22" stroke-width="1.4"/>
+  <g clip-path="url(#clip)" stroke="#8BC6FF" stroke-opacity=".16" stroke-width="1">
+    <ellipse cx="650" cy="390" rx="250" ry="320"/>
+    <ellipse cx="650" cy="390" rx="150" ry="320"/>
+    <ellipse cx="650" cy="390" rx="55" ry="320"/>
+    <path d="M330 390H970"/>
+    <ellipse cx="650" cy="390" rx="320" ry="250"/>
+    <ellipse cx="650" cy="390" rx="320" ry="150"/>
+    <ellipse cx="650" cy="390" rx="320" ry="55"/>
+  </g>
+  <g fill="#8BC6FF" fill-opacity=".12" stroke="#A7D4FF" stroke-opacity=".30" stroke-width="1">
+    <path d="M435 243L471 213L505 226L527 221L548 237L541 260L563 274L552 294L520 298L501 315L476 303L456 318L425 304L405 279L420 258L435 243Z"/>
+    <path d="M556 308L600 282L642 287L676 269L707 277L720 299L754 306L774 329L760 349L724 351L703 372L673 367L655 387L624 379L608 357L574 354L556 332V308Z"/>
+    <path d="M694 390L724 374L756 388L770 417L762 446L739 466L724 501L697 512L681 484L684 453L664 432L671 405L694 390Z"/>
+    <path d="M810 332L842 316L877 326L896 351L889 375L858 387L829 373L811 354L810 332Z"/>
+    <path d="M835 464L874 446L909 462L926 493L914 525L881 540L848 526L831 498L835 464Z"/>
+  </g>
+  <g fill="#B9DEFF">
+    <circle cx="515" cy="259" r="3"/><circle cx="676" cy="317" r="3"/><circle cx="729" cy="419" r="3"/><circle cx="860" cy="353" r="3"/><circle cx="882" cy="490" r="3"/>
+  </g>
+  <g stroke="#7BBEFF" stroke-opacity=".35" stroke-dasharray="4 8">
+    <path d="M515 259C591 230 621 257 676 317"/><path d="M676 317C706 343 713 381 729 419"/><path d="M676 317C742 290 795 306 860 353"/><path d="M729 419C789 428 834 452 882 490"/>
+  </g>
+</svg>
